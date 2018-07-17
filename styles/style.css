@@ -45,13 +45,6 @@ main{
     border-radius: 40px; 
 }
 
-.show{
-    background: #000000;
-    color: #f9fafc;
-    padding: 10px 30px 10px 30px; 
-    border-radius: 40px; 
-}
-
 .lcolumn{
     width: 59%; 
     display: inline-block; 
@@ -104,4 +97,13 @@ main{
     position: absolute;
     top: 35%;
     right: 0%;
+}
+
+.show{
+    background: #000000;
+    color: #f9fafc;
+    padding: 10px 30px 10px 30px; 
+    border-radius: 40px; 
+    position: fixed; 
+    left: 50%; 
 }
