@@ -15,6 +15,10 @@ main{
     width: 100%;
 }
 
+p{
+  margin: 0; 
+}
+
 .contents{
     width: 90%;
     margin: 10px auto 0px auto; 
@@ -57,7 +61,7 @@ main{
 
 .blurb{
     padding: 0px 0px 0px 25px; 
-    border-right: #69696a; 
+    border-left: #69696a 2px solid; 
 }
 
 .rcolumn{
@@ -70,8 +74,8 @@ main{
 }
 
 .cir1{
-    height: 200px; 
-    width: 200px; 
+    padding-top: 70%;
+    width: 70%; 
     background: rgba(247, 136, 167, 0.6);
     border-radius: 50%;
     position: absolute;
@@ -80,8 +84,8 @@ main{
 }
 
 .cir2{
-    height: 125px;
-    width: 125px; 
+    padding-top: 43%;
+    width: 43%; 
     background: rgba(207, 130, 213, 0.6);
     border-radius: 50%; 
     position: absolute;
@@ -90,8 +94,8 @@ main{
 }
 
 .cir3{
-    height: 125px; 
-    width: 125px; 
+    padding-top: 52%;
+    width: 52%; 
     background: rgba(247, 193, 162, 0.7);
     border-radius: 50%;
     position: absolute;
