@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+}
+
+ul{
+    list-style: none;
+}
+
+.contents{
+    width: 90%;
+    margin: 10px auto 0px auto; 
+}
+
+.corp-name{
+    display: inline-block; 
+}
+
+.navi{
+    margin: 15px 5px 160px 5px; 
+}
+
+.nav-bar{
+    display: inline-block;
+    float: right;
+}
+
+.links li{
+    display: inline-block;
+    padding: 10px; 
+}
+
+.links li:last-child{
+    background: #000000;
+    color: #f9fafc;
+    padding: 10px 30px 10px 30px; 
+    border-radius: 40%; 
+}
