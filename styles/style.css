@@ -1,4 +1,6 @@
-@media only screen and (min-width: 481px){*{
+@media only screen and (min-width: 481px){
+    
+*{
     margin: 0px;
     padding: 0px;
 }
@@ -17,6 +19,11 @@ main{
 
 p{
   margin: 0; 
+}
+
+a{
+    text-decoration: none; 
+    color: #69696a;
 }
 
 .contents{
@@ -40,6 +47,7 @@ p{
 .links li{
     display: inline-block;
     padding: 10px; 
+    color: #69696a;
 }
 
 .links li:last-child{
@@ -61,7 +69,8 @@ p{
 
 .blurb{
     padding: 0px 0px 0px 25px; 
-    border-left: #69696a 2px solid; 
+    border-left: #69696a 2px solid;
+    color: #69696a; 
 }
 
 .rcolumn{
