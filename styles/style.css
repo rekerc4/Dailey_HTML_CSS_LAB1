@@ -26,6 +26,13 @@ a{
     color: #69696a;
 }
 
+button{
+    font-family: inherit;
+    font-size: 1em; 
+    font: 400 1em 'Open Sans', sans-serif;
+}
+
+
 .contents{
     width: 90%;
     margin: 10px auto 0px auto; 
@@ -52,9 +59,12 @@ a{
 
 .links li:last-child{
     background: #000000;
-    color: #f9fafc;
     padding: 10px 30px 10px 30px; 
     border-radius: 40px; 
+}
+
+.links li:last-child > a{
+    color: #f9fafc; 
 }
 
 .lcolumn{

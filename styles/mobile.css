@@ -26,6 +26,12 @@
         color: #69696a;
     }
 
+    button{
+        font-family: inherit;
+        font-size: 1em; 
+        font: 400 1em 'Open Sans', sans-serif;
+    }
+
     .contents{
         width: 90%;
         margin: 10px auto 0px auto; 
@@ -49,13 +55,12 @@
 
     .links li:last-child{
         background: #000000;
-        color: #f9fafc;
         padding: 10px 30px 10px 30px; 
         border-radius: 40px; 
     }
 
     .links li:last-child > a{
-        color: white; 
+        color: #f9fafc; 
         margin: auto; 
         display: block;
         text-align: center; 
@@ -71,5 +76,19 @@
         color: #69696a;
         border-left: #69696a 2px solid; 
         margin: 0px 0px 40px 0px; 
+    }
+
+    .show{
+        background: #000000;
+        color: #f9fafc;
+        padding: 10px 30px 10px 30px; 
+        border-radius: 40px; 
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .cir3{
+        top: 22%;
     }
 }
